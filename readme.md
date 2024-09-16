@@ -2,6 +2,8 @@
 
 Welcome to the **Bank of Bengal** landing page project. This is a simple, elegant, and responsive front-end for a banking website that focuses on delivering a user-friendly experience. It provides key banking features and highlights the services of Bank of Bengal.
 
+url: https://vanragas.github.io/bank-of-bengal/
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
