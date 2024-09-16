@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/icon.png" />
+    <link rel="icon" type="image/svg+xml" href="public/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,13 +11,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
     <title>Bank Of Bengal</title>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
         <img
-          src="/logo.png"
+          src="public/logo.png"
           alt="Bank Of Bengal Logo"
           class="nav__logo"
           id="logo"
@@ -75,7 +77,7 @@
             Learn more &downarrow;
           </button>
         </div>
-        <img src="/hero.png" alt="Banking cards" class="header__img" />
+        <img src="public/hero.png" alt="Banking cards" class="header__img" />
       </div>
     </header>
 
@@ -90,8 +92,8 @@
       <div class="features">
         <div class="features__img">
           <img
-            src="/app-lazy.png"
-            data-src="/app.png"
+            src="public/app-lazy.png"
+            data-src="public/app.png"
             alt="Banking App Picture"
             class="lazy-img"
           />
@@ -99,7 +101,7 @@
         <div class="features__feature">
           <div class="features__icon">
             <svg>
-              <use xlink:href="/icons/icons.svg#icon-display"></use>
+              <use xlink:href="public/icons/icons.svg#icon-display"></use>
             </svg>
           </div>
           <h5 class="features__header">One app. One banking.</h5>
@@ -114,7 +116,7 @@
         <div class="features__feature change__order--1">
           <div class="features__icon">
             <svg>
-              <use xlink:href="/icons/icons.svg#icon-growth"></use>
+              <use xlink:href="public/icons/icons.svg#icon-growth"></use>
             </svg>
           </div>
           <h5 class="features__header">Watch your money grow.</h5>
@@ -127,23 +129,23 @@
         <div class="features__img change__order--2">
           <img
             class="grow"
-            src="/grow-lazy.jpg"
-            data-src="/grow.jpg"
+            src="public/grow-lazy.jpg"
+            data-src="public/grow.jpg"
             alt="Picture of money growing"
           />
         </div>
 
         <div class="features__img">
           <img
-            src="/card-lazy.png"
-            data-src="/card.png"
+            src="public/card-lazy.png"
+            data-src="public/card.png"
             alt="Picture of debit card"
           />
         </div>
         <div class="features__feature">
           <div class="features__icon">
             <svg>
-              <use xlink:href="/icons/icons.svg#icon-card"></use>
+              <use xlink:href="public/icons/icons.svg#icon-card"></use>
             </svg>
           </div>
           <h5 class="features__header">Free debit card included</h5>
@@ -178,7 +180,7 @@
         >
           <div class="operations__icon">
             <svg>
-              <use xlink:href="/icons/icons.svg#icon-transfer"></use>
+              <use xlink:href="public/icons/icons.svg#icon-transfer"></use>
             </svg>
           </div>
           <h5 class="operations__header">Send & Receive money instantly</h5>
@@ -192,7 +194,7 @@
         <div class="operations__content operations__content--2">
           <div class="operations__icon">
             <svg>
-              <use xlink:href="/icons/icons.svg#icon-loan"></use>
+              <use xlink:href="public/icons/icons.svg#icon-loan"></use>
             </svg>
           </div>
           <h5 class="operations__header">Organize your money the right way</h5>
@@ -206,7 +208,7 @@
         <div class="operations__content operations__content--3">
           <div class="operations__icon">
             <svg>
-              <use xlink:href="/icons/icons.svg#icon-notification"></use>
+              <use xlink:href="public/icons/icons.svg#icon-notification"></use>
             </svg>
           </div>
           <h5 class="operations__header">Stay Notified</h5>
@@ -240,7 +242,7 @@
             </blockquote>
             <address class="testimonial__author">
               <img
-                src="/user-1.jpg"
+                src="public/user-1.jpg"
                 alt="User picture"
                 class="testimonial__photo"
               />
@@ -264,7 +266,7 @@
             </blockquote>
             <address class="testimonial__author">
               <img
-                src="/user-2.jpg"
+                src="public/user-2.jpg"
                 alt="User picture"
                 class="testimonial__photo"
               />
@@ -287,7 +289,7 @@
             </blockquote>
             <address class="testimonial__author">
               <img
-                src="/user-3.jpg"
+                src="public/user-3.jpg"
                 alt="User picture"
                 class="testimonial__photo"
               />
@@ -337,7 +339,7 @@
           <a href="#" class="footer__link">Contact Us</a>
         </li>
       </ul>
-      <img src="/icon.png" alt="Logo" class="footer__logo" />
+      <img src="public/icon.png" alt="Logo" class="footer__logo" />
       <p class="footer__copyright">&copy; Bank of Bengal 2024</p>
       <p class="footer__note">
         Note: This project is a replica of Bankist project from Jonas
@@ -363,7 +365,5 @@
       </form>
     </div>
     <div class="overlay hidden"></div>
-
-    <script type="module" src="/main.js"></script>
   </body>
 </html>
