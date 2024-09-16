@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bank Of Bengal</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="/logo.png"
+          alt="Bank Of Bengal Logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a href="#section--1" class="nav__link">Features</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link">Testimonials</a>
+          </li>
+        </ul>
+        <div class="nav__btns">
+          <a href="#" class="nav__link nav__link--login btn--show-modal"
+            >Login</a
+          >
+          <a href="#" class="nav__link nav__link--btn btn--show-modal"
+            >Open account</a
+          >
+        </div>
+        <div class="mobile__nav">
+          <button class="nav__toggle">
+            <div class="hamburger__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
+          <div class="nav__menu menu-close">
+            <a href="#section--1" class="mobile__nav-link">Features</a>
+            <a href="#section--2" class="mobile__nav-link">Operations</a>
+            <a href="#section--3" class="mobile__nav-link">Testimonials</a>
+            <a href="#" class="mobile__nav-link btn--show-modal">Login</a>
+            <a href="#" class="mobile__nav-link btn--show-modal"
+              >Open account</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <div class="header__title">
+        <div class="header__headings">
+          <h1>
+            Banking<br />
+            starts here.
+          </h1>
+          <h4>
+            A <span class="highlight">simpler banking</span> experience<br />
+            for a <span class="highlight">simpler life</span>.
+          </h4>
+          <button class="btn--text btn--scroll-to">
+            Learn more &downarrow;
+          </button>
+        </div>
+        <img src="/hero.png" alt="Banking cards" class="header__img" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern bank and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <div class="features__img">
+          <img
+            src="/app-lazy.png"
+            data-src="/app.png"
+            alt="Banking App Picture"
+            class="lazy-img"
+          />
+        </div>
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="/icons/icons.svg#icon-display"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">One app. One banking.</h5>
+          <p>
+            Experience seamless banking like never before. With just one app,
+            manage all your financial needs effortlessly. Simplify your life
+            with our all-in-one solution that puts you in control of your
+            banking, anytime, anywhere.
+          </p>
+        </div>
+
+        <div class="features__feature change__order--1">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="/icons/icons.svg#icon-growth"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow.</h5>
+          <p>
+            Empower your finances with tools that help you save, invest, and
+            grow your wealth. Track your progress in real-time and watch your
+            money work harder for you, all within a single, easy-to-use app.
+          </p>
+        </div>
+        <div class="features__img change__order--2">
+          <img
+            class="grow"
+            src="/grow-lazy.jpg"
+            data-src="/grow.jpg"
+            alt="Picture of money growing"
+          />
+        </div>
+
+        <div class="features__img">
+          <img
+            src="/card-lazy.png"
+            data-src="/card.png"
+            alt="Picture of debit card"
+          />
+        </div>
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="/icons/icons.svg#icon-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Enjoy the convenience of a free debit card with your account. Access
+            your funds instantly, make secure purchases, and manage your
+            spending with ease—no extra fees, just added benefits.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Effortless Navigation through Your Banking Needs
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button class="operations__tab operations__tab--active" data-tab="1">
+            Instant Transfers
+          </button>
+          <button class="operations__tab" data-tab="2">Instant Loans</button>
+          <button class="operations__tab" data-tab="3">Notifications</button>
+        </div>
+
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon">
+            <svg>
+              <use xlink:href="/icons/icons.svg#icon-transfer"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Send & Receive money instantly</h5>
+          <p>
+            Transfer funds effortlessly and receive money in real-time, all with
+            no additional charges. Whether it's paying bills, sending money to
+            friends, or receiving payments, enjoy the speed and convenience of
+            instant, fee-free transactions.
+          </p>
+        </div>
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon">
+            <svg>
+              <use xlink:href="/icons/icons.svg#icon-loan"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Organize your money the right way</h5>
+          <p>
+            Get instant access to loans and manage your finances with
+            confidence. Organize your money the right way by tailoring loans to
+            your needs, with quick approvals and flexible terms that work for
+            you.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon">
+            <svg>
+              <use xlink:href="/icons/icons.svg#icon-notification"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">Stay Notified</h5>
+          <p>
+            Never miss a beat with real-time notifications. Stay informed about
+            your transactions, account activities, and important updates,
+            ensuring you’re always in control of your finances.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millons of Bank Of Bengal are already making their lifes simpler.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Switching to this app and changing my bank was the best financial
+              decision I’ve ever made. The transition was smooth, and now
+              everything I need is right at my fingertips. From managing
+              accounts to making investments, it’s simplified my life and given
+              me complete control over my finances.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="/user-1.jpg"
+                alt="User picture"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Arjun Singh</h6>
+              <p class="testimonial__location">New Delhi, India</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              This app was the final step in my journey to becoming a complete
+              minimalist. It combines all my financial needs into one simple,
+              clean platform. No more juggling multiple apps or dealing with
+              unnecessary clutter—just streamlined, efficient banking that fits
+              perfectly with my minimalist lifestyle
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="/user-2.jpg"
+                alt="User picture"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Neeta Dubey</h6>
+              <p class="testimonial__location">Mumbai, India</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school banks
+            </h5>
+            <blockquote class="testimonial__text">
+              Breaking free from old-school banks has been a game-changer for
+              me. This app offers everything I need without the outdated
+              hassles. No more long waits or hidden fees—just modern, efficient
+              banking that’s in tune with how I live today.
+            </blockquote>
+            <address class="testimonial__author">
+              <img
+                src="/user-3.jpg"
+                alt="User picture"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Bob Biswas</h6>
+              <p class="testimonial__location">Kolkata, India</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&#10094;</button>
+        <button class="slider__btn slider__btn--right">&#10095;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Bank of Bengal was one year ago. The second best
+          is today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a href="#" class="footer__link">About</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Blogs</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Contact Us</a>
+        </li>
+      </ul>
+      <img src="/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">&copy; Bank of Bengal 2024</p>
+      <p class="footer__note">
+        Note: This project is a replica of Bankist project from Jonas
+        Schmedtmann's JavaScript course at Udemy. Only pictures, logos, and
+        little bit text content are different (No "Lorem ipsum").
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight"> 5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" />
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" />
+        <label for="email">Email Address</label>
+        <input id="email" type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
